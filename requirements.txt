@@ -13,7 +13,6 @@ scikit-learn==1.2.0
 scipy==1.9.3
 statsmodels==0.13.5
 streamlit==1.17.0
-streamlit-aggrid==0.3.3
 streamlit-lottie==0.0.3
 tinycss2
 urllib3
