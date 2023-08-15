@@ -6,15 +6,15 @@ from function import train_test_split, auto_reg_modelling, evaluate_model, load_
 
 # Page Congifuration
 st.set_page_config(
-    page_title='TS - INSIGHT', 
+    page_title='TemporalSpider Analytics', 
     page_icon='🕐', 
     layout='wide'
 )
 
-st.markdown("<h1 style='text-align: center; color: rgb(0, 0, 0);'> TIME SERIES PROFILER </h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: rgb(0, 0, 0);'> TemporalSpider Analytics </h1>", unsafe_allow_html=True)
 
-lottie_url = "https://lottie.host/8308ae3b-1ac1-4242-8ce2-247b51171973/vA5gQzWzjN.json"
-_,img_col, _ = st.columns((1,2,1))
+lottie_url = "https://lottie.host/7bab6b92-1b21-4d2c-8e42-29a46211da1c/G8O2EyloAI.json"
+_,img_col, _ = st.columns((0.5,2,0.5))
 
 with img_col:
     lottie_hello = load_lottieurl(lottie_url)
