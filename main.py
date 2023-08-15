@@ -63,7 +63,8 @@ if file is not None:
         test_set = test.set_index('date')[['data']]
         accuracy, mae, mse, rmse = evaluate_model(test_set, prediction)
 
-        full_data = main_train.append(main_test)
+        # full_data = main_train.append(main_test)
+        full_data = pd.concat([main_train, main_test])
         full_data['train'] = main_train['data']
         full_data['test'] = main_test['data']
         full_data['forecast'] = prediction['data']
